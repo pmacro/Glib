@@ -1,0 +1,6 @@
+module GLib [system] {
+  header "shim.h"
+  link "gobject-2.0"
+  link "glib-2.0"
+  export *
+}
